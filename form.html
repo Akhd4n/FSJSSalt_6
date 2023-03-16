@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Akhdan</title>
+    <link rel="stylesheet" href="/form.css">
+  </head>
+  
+  <body>
+    <main>
+      <form action="./result.html">
+        <h1>FORMULIR PENDAFTARAN</h1>
+
+        <hr>
+
+        <br>
+
+        <div class="foto">
+          <label for="file">Foto Profil</label>
+          <br>
+          <input type="file" name="file" id="file">
+        </div>
+
+        <br>
+
+        <div class="nama lengkap">
+          <label for="name">Nama Lengkap</label>
+          <br>
+          <input
+            type="text"
+            name="name"
+            id="name"
+          />
+        </div>
+
+        <br>
+
+        <div class="pekerjaan">
+          <label for="pekerjaan">Pekerjaan</label>
+          <br>
+          <input
+            type="text"
+            name="name"
+            id="pekerjaan"
+          />
+        </div>
+
+        <br>
+
+        <div class="text">
+          <p>Hobby</p>
+          <input type="checkbox" name="hobby" id="Game">
+          <label for="Game">Game</label>
+          <input type="checkbox" name="hobby" id="Sepak Bola">
+          <label for="Sepak Bola">Sepak Bola</label>
+          <input type="checkbox" name="hobby" id="Tidur">
+          <label for="Tidur">Tidur</label>
+          <input type="checkbox" name="hobby" id="Gak Ngapa-ngapain">
+          <label for="Gak Ngapa-ngapain">Gak Ngapa-ngapain</label>
+        </div>
+
+        <br>
+
+        <div class="text">
+          <label for="nationality">Nationality</label>
+          <select name="nationality" id="nationality">
+            <option value="">Pilih</option>
+            <option value="">Argentina</option>
+            <option value="">Brazil</option>
+            <option value="">Indonesia</option>
+            <option value="">Portugal</option>
+            <option value="">Spain</option>
+            <option value="">Wakanda</option>
+          </select>
+        </div>
+
+        <br>
+
+        <div class="text">
+          <label for="bio">Biodata</label><br />
+          <textarea
+            name="bio"
+            id="bio"
+            cols="25"
+            rows="0"
+          ></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

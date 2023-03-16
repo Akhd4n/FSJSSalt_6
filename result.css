@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #63f1fe;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #3dff95;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    color: #000000;
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+    height: 325px;
+    padding: 20px;
+    padding-bottom: 10px;
+  }
